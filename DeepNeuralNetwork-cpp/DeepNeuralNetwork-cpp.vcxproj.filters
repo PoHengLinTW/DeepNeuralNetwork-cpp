@@ -13,5 +13,57 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Layer">
+      <UniqueIdentifier>{dd92ef6a-a8e3-4909-afa4-320785ea1584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Activation">
+      <UniqueIdentifier>{5a630f0c-2af1-4c65-90b3-f45f7b542f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Optimizer">
+      <UniqueIdentifier>{d97a8bc9-d13d-4bde-b0a7-27c44260e928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{0bae2229-19b9-42bd-bcf3-63f1d375d5f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Output">
+      <UniqueIdentifier>{717d868d-f6e5-4508-963d-16dce8f79439}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DNN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuralNet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RNG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer\FullyConnected.h">
+      <Filter>Header Files\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer\Convolutional.h">
+      <Filter>Header Files\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer\Pooling.h">
+      <Filter>Header Files\Layer</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
