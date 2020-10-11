@@ -19,13 +19,13 @@ public:
 		m_in_size(in_size),
 		m_out_size(out_size) {}
 
-	virtual ~Layer();
+	virtual ~Layer() = 0;
 
 	int in_size() const { return m_in_size; }
 	int out_size() const { return m_out_size; }
 
 	virtual void init(const Scalar& mu, const Scalar& sigma, RNG& rng) = 0;
-	virtual void forware(const Matrix& prev_layer_output) = 0;
+	virtual void forward(const Matrix& prev_layer_output) = 0;
 
 	virtual const Matrix& output() const = 0;
 
